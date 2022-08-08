@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+body {
+  margin: 0;
+  background-color: #134f5c;
+  color: #cfe2f3;
+  font-family: 'Fira Code', 'monospace';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  text-align: center;
+}
+.app-title {
+  font-size: 55px;
+}
+.search-box {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border:0;
+  outline: 0;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: 2px solid #ffb326;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffb326;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border:2px solid #ffb326;
+  border-radius: 10px;
+  margin: 10px;
+  width: 40%;
+  transition: 0.5s;
+}
+.card:hover {
+  width: 50%;
+  transform: scale(1.05);
+}
+@media only screen and (max-width: 900px){
+	.card {
+    width: 80%;
+  }
+  .card:hover {
+    width: 80%;
+  }
+}
+.card-content {
+  margin: 10px;
+}
+
+
