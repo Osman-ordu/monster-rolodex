@@ -1,4 +1,4 @@
-![](../monster-rolodexx.png)
+![monster-rolodexx](https://user-images.githubusercontent.com/92692879/183404988-4c89af5f-947b-4df8-b62d-81ece8aa19c2.png)
 
 # Getting Started with Create React App
 
