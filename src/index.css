@@ -11,6 +11,7 @@ body {
   text-align: center;
 }
 .app-title {
+  color: #ffb326;
   font-size: 55px;
 }
 .search-box {
@@ -21,10 +22,9 @@ body {
   outline: 0;
   font-size: 16px;
   background: transparent;
-  border-bottom: 2px solid #ffb326;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #ffb326;
+  color: #cfe2f3;
 }
 
 .card-container {
@@ -40,6 +40,10 @@ body {
   margin: 10px;
   width: 40%;
   transition: 0.5s;
+}
+.city {
+  color: #ffb326;
+  font-weight: 700;
 }
 .card:hover {
   width: 50%;

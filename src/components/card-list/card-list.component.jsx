@@ -14,7 +14,11 @@ class CardList extends Component {
           <img src={`https://robohash.org/${id}?set=set2&size=240x240`} alt={`monster ${monster.name}`}/>
           <h2>{name} {username}</h2>
           <div className='card-content'>
-             <div>City:{monster.address.city}</div>
+             <div>City:
+              <span className='city'>
+              {monster.address.city}
+              </span>
+              </div>
              <div>Email:{email}</div>
              <div>Website:{website}</div> 
           </div>             
